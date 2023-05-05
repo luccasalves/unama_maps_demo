@@ -1,6 +1,5 @@
 import { Button } from "native-base";
 import React from "react";
-import { A } from "@expo/html-elements";
 import { Alert, Linking } from "react-native";
 
 // import { Container } from './styles';

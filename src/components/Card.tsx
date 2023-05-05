@@ -8,6 +8,7 @@ import {
   Text,
   HStack,
 } from "native-base";
+import React from "react";
 
 interface CardProps {
   img: string;

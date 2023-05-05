@@ -1,3 +1,4 @@
+import React from "react";
 import { Box, ScrollView } from "native-base";
 
 type Props = {

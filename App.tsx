@@ -1,8 +1,8 @@
 import { NativeBaseProvider, StatusBar } from "native-base";
-import HomeScreen from "./src/screens/Home";
 
 import { NavigationContainer } from "@react-navigation/native";
 import AppRouterTabs from "./src/config/AppRouterTab";
+import React from "react";
 
 export default function App() {
   return (

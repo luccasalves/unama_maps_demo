@@ -24,7 +24,7 @@ const GalleryScreen: React.FC = () => {
     },
     {
       title: "Studio de rádio",
-      subtitle: "laboratório de informática - bloco L",
+      subtitle: "laboratório de ",
       img: "http://www.unama.br/sites/unama.br/files/styles/galleria_zoom/public/galeria/estruturaFisica/1eca2a911181f2dba08e09e510abe061/laboratorio_de_comunicacao_-_estudio_de_radio-bloco_e-campus_alcindo_cacela.jpg?itok=b_i9jfhr",
     },
   ];

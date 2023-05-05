@@ -1,3 +1,4 @@
+import React from "react";
 import HomeScreen from "../screens/Home";
 import ContactsScreen from "../screens/Contacts";
 import { useTheme } from "native-base";
