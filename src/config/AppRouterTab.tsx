@@ -18,13 +18,13 @@ export default function AppRouterTabs() {
       barStyle={{ backgroundColor: theme.colors.emerald[600] }}
     >
       <Tab.Screen
-        name="Inicio"
-        component={HomeScreen}
+        name="Contatos"
+        component={ContactsScreen}
         options={{
           tabBarIcon: (props) => {
             return (
               <Icons
-                name="home"
+                name="contacts"
                 color={
                   props.focused ? theme.colors.black : theme.colors.emerald[300]
                 }
@@ -35,13 +35,13 @@ export default function AppRouterTabs() {
         }}
       />
       <Tab.Screen
-        name="Contatos"
-        component={ContactsScreen}
+        name="Inicio"
+        component={HomeScreen}
         options={{
           tabBarIcon: (props) => {
             return (
               <Icons
-                name="contacts"
+                name="home"
                 color={
                   props.focused ? theme.colors.black : theme.colors.emerald[300]
                 }

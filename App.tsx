@@ -8,7 +8,7 @@ export default function App() {
   return (
     <NativeBaseProvider>
       <NavigationContainer>
-        <StatusBar />
+        <StatusBar backgroundColor={"#059669"} />
         <AppRouterTabs />
       </NavigationContainer>
     </NativeBaseProvider>
