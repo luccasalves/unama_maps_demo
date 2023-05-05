@@ -2,11 +2,12 @@ import React from "react";
 import { View } from "react-native";
 import MapView from "react-native-maps";
 import { StyleSheet } from "react-native";
+import { Image } from "native-base";
 
 const HomeScreen: React.FC = () => {
   return (
     <View style={styles.container}>
-      <MapView
+      {/* <MapView
         style={styles.map}
         initialRegion={{
           latitude: -1.4388,
@@ -14,8 +15,8 @@ const HomeScreen: React.FC = () => {
           latitudeDelta: 0.000199,
           longitudeDelta: 0.0009,
         }}
-      />
-      {/* <Image source={require("../../assets/map_base.png")} alt="mapa" /> */}
+      /> */}
+      <Image source={require("../../assets/map_base.png")} alt="mapa" />
     </View>
   );
 };
