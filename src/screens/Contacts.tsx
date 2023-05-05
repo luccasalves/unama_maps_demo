@@ -25,7 +25,6 @@ const ContactsScreen: React.FC = () => {
         <Heading textAlign={"center"}>Conecte-se com a unama</Heading>
 
         <ButtonLinking url="www.unama.br/" title="Site oficial" />
-        <ButtonLinking url="www.unama.br/" title="Site oficial" />
         <ButtonLinking url="cra.sereducacional.com/" title="CRA" />
         <ButtonLinking
           url="www.instagram.com/unamaoficial/"
